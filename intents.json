@@ -1,0 +1,185 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["hello","hey","hi","good day","whats's up","how you doing","kaisa ho","sab theek"],
+     "responses":["Hello!","Hey","What can i do for you"],
+     "displayimg":["no"]
+    },
+    {"tag":"goodbye",
+     "patterns":["cya","See you later","Goodbye","I am Leaving","Have a good day","bye","cao","see ya"],
+     "responses":["Goodbye!","Hope to see you soon around"],
+     "displayimg":["no"]
+    },
+    {"tag":"name",
+     "patterns":["what is your name","what should i call you","whats your name","who are you","Can you tell me your name"],
+     "responses":["You can call me CarEx","I'm CarEx","I'm CarEx Your guide about cars"],
+     "displayimg":["no"]
+    },
+    {"tag":"age",
+     "patterns":["how old","how much time you have been working here","what is your age","how old are you","age?"],
+     "responses":["I am 2 months old!","2 months!"],
+     "displayimg":["no"]
+    },
+    {
+        "tag":"help",
+        "patterns":["how can you help me","please help me","can you help","help","wanted to know something","wanted to discuss something","discuss","enquiry","I need help in choosing a car make","I need help in choosing a car brand"],
+        "responses":["How can I help you","Yes! I can help you with cars for sure","It will be my pleasure to serve you.!"],
+        "displayimg":["no"]
+    },
+    {
+        "tag":"regards",
+        "patterns":["hey thank you","thank you so much!","thank you","thank you carex","well done dude","well done","thank you soo much carex","thanks"],
+        "responses":["My Pleasure!","You're most welcome! :)","Hope to see you again!"],
+        "displayimg":["no"]
+    },
+    {
+        "tag": "CourtesyGreeting",
+        "patterns": ["How are you?","Hi how are you?","Hello how are you?","Hola how are you?","How are you doing?","Hope you are doing well?","Hello hope you are doing well?"],
+        "responses": ["Hello, I am great, how are you? Please tell me your GeniSys user","Hello, how are you? I am great thanks! Please tell me your GeniSys user","Hello, I am good thank you, how are you? Please tell me your GeniSys user","Hi, I am great, how are you? Please tell me your GeniSys user","Hi, how are you? I am great thanks! Please tell me your GeniSys user","Hi, I am good thank you, how are you? Please tell me your GeniSys user","Hi, good thank you, how are you? Please tell me your GeniSys user"],
+        "displayimg":["no"]
+    },
+    {
+        "tag":"mercedes",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","gle","gla","c class","c200","c220d","c300d","cla","mercedes","mercedes benz","benz","s350d","s 350d","s450 4Matic","s 450 4 Matic","gls","glc","amg g 63","gwagon","maybach","maybach s class","maybach sclass","maybach gle","amg e 53","amg","e53"],
+        "responses":["It's Identified as a Mercedes car model. Company/Brand information is as follows ---->     Mercedes-Benz commonly referred to as Mercedes and sometimes as Benz, is a German luxury and commercial vehicle automotive brand established in 1926. Mercedes-Benz AG (a Mercedes-Benz Group subsidiary established in 2019) is headquartered in Stuttgart, Baden-Württemberg, Germany.[1] Mercedes-Benz AG produces consumer luxury vehicles and commercial vehicles badged as Mercedes-Benz. From November 2019 onwards, Mercedes-Benz-badged heavy commercial vehicles (trucks and buses) are managed by Daimler Truck, a former part of the Mercedes-Benz Group turned into an independent company in late 2021. In 2018, Mercedes-Benz was the largest brand of premium vehicles in the world, having sold 2.31 million passenger cars."],
+        "displayimg":["yes","mercedes.jpeg"]
+    },
+    {
+        "tag":"bmw",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","bmw","bm","mw","x7","x5","x3","x1","xm","x","m340i","m8","m4 competetion coupe","z4","z4 m40i","series","7 series","series 7","series 6","6 series","5 series","series 5","series 3","3 series","series 2","2 series"],
+        "responses":["It's Identified as a BMW car model. Company/Brand information is as follows ---->     Bayerische Motoren Werke AG, abbreviated as BMW is a German multinational manufacturer of luxury vehicles and motorcycles headquartered in Munich, Bavaria. The corporation was founded in 1916 as a manufacturer of aircraft engines, which it produced from 1917 until 1918 and again from 1933 to 1945.Automobiles are marketed under the brands BMW, Mini and Rolls-Royce, and motorcycles are marketed under the brand BMW Motorrad. In 2017, BMW was the world's fourteenth-largest producer of motor vehicles, with 2,279,503 vehicles produced.[2] The company has significant motor-sport history, especially in touring cars, sports cars, and the Isle of Man TT."],
+        "displayimg":["yes","bmw.jpg"]
+    },
+    {
+        "tag":"marutisuzuki",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","maruti suzuki","maruti","suzuki","vitara","grand vitara","vitara breeza","breeza","baleno","swift","wagonr","wagon r","alto","alto 800","alto k10","dzire","ertiga","celerio","eeco","eco","ignis","xl6","ciaz","spresso","s presso"],
+        "responses":["It's Identified as a Maruti Suzuki car model. Company/Brand information is as follows ---->     Maruti Suzuki India Limited, formerly known as Maruti Udyog Limited, is an Indian automobile manufacturer, based in New Delhi. It was founded in 1981 and owned by the Government of India until 2003, when it was sold to the Japanese automaker Suzuki Motor Corporation.[2][7] As of September 2022 Maruti Suzuki has a market share of 42 percent in the Indian passenger car market.[8]"],
+        "displayimg":["yes","marutisuzuki.jpg"]
+    },
+    {
+        "tag":"honda",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","honda","honda amaze","amaze","city","honda city","jazz","honda jazz","brio","honda brio","wrv","honda wrv","crv","honda crv","civic","honda civic"],
+        "responses":["It's Identified as a Honda car model. Company/Brand information is as follows ---->     Honda Motor Co., Ltd.commonly known as simply Honda) is a Japanese public multinational conglomerate manufacturer of automobiles, motorcycles, and power equipment, headquartered in Minato, Tokyo, Japan.Honda has been the world's largest motorcycle manufacturer since 1959,[4][5] reaching a production of 400 million by the end of 2019,[6] as well as the world's largest manufacturer of internal combustion engines measured by volume, producing more than 14 million internal combustion engines each year.[7] Honda became the second-largest Japanese automobile manufacturer in 2001.[8][9] In 2015, Honda was the eighth largest automobile manufacturer in the world.[10]"],
+        "displayimg":["yes","honda.jpeg"]
+    },
+    {
+        "tag":"ford",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","ford","ford figo","figo","ecosports","ecosport","eco sport","for ecosport","endeavour","ford endeavour","mustang","mustang gt"],
+        "responses":["It's Identified as a Ford car model. Company/Brand information is as follows ---->     Ford India Private Limited was a subsidiary of Ford Motor Company for its operations in India. Ford India Private Limited's headquarter is located in Sholinganallur, Chennai, Tamil Nadu. Ford also has integrated manufacturing facilities in Sanand, Gujarat.[3] On September 9, 2021, Ford has exited Indian market as it failed to catch up pace with the competition and other global economic factors that led to reduction in demand.[4] On 8 August 2022, Ford announced it would be selling its manufacturing plant in the western state of Gujarat for INR 7.26 billion (approximately US$91.5 million) to Tata Motors.[5][6]"],
+        "displayimg":["yes","ford.jpeg"]
+    },
+    {
+        "tag":"hyundai",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","hyundai","hyundai venue","venue","creta","hyundai creta","hyundai i20","i20","hyundai verna","verna","i10","i10 nios","aura","tucson","alcazar"],
+        "responses":["It's Identified as a Hyundai car model. Company/Brand information is as follows ---->     Hyundai Motor India Ltd is a wholly owned subsidiary of the Hyundai Motor Company headquartered in South Korea. It is the second largest automobile manufacturer with 15% market share as of 2022 and US$5.5 billion turn-over in India.Hyundai Motor India Limited was formed on 6 May 1996 by the Hyundai Motor Company of South Korea. When Hyundai Motor Company entered the Indian automobile market in 1996 the Hyundai brand was almost unknown throughout India. During the entry of Hyundai in 1996, there were only five major automobile manufacturers in India, i.e. Maruti, Hindustan, Premier, Tata and Mahindra. Daewoo had entered the Indian automobile market with Cielo just three years back while Ford, Opel and Honda had entered less than a year back."],
+        "displayimg":["yes","hyundai.jpeg"]
+    },
+    {
+        "tag":"jeep",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","jeep","compass","meridian","jeep meridian","wrangler","jeep wrangler","new grand cherokee","cherokee"],
+        "responses":["It's Identified as a Jeep car model. Company/Brand information is as follows ---->     Jeep is an American automobile marque, now owned by multi-national corporation Stellantis.[2][3] Jeep has been part of Chrysler since 1987, when Chrysler acquired the Jeep brand, along with remaining assets, from its previous owner American Motors Corporation (AMC)."],
+        "displayimg":["yes","jeep.jpeg"]
+    },
+    {
+        "tag":"toyota",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","toyota","urban cruiser","glanza","innova","innova crysta","crysta","hycross","innova hycross","fortuner","camry","vellfire"],
+        "responses":["It's Identified as a Toyota car model. Company/Brand information is as follows ---->     Toyota Motor Corporation commonly known as simply Toyota) is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937. Toyota is one of the largest automobile manufacturers in the world, producing about 10 million vehicles per year."],
+        "displayimg":["yes","toyota.jpeg"]
+    },
+    {
+        "tag":"audi",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","audi","q3","a4","a6","q7","q8","q5","rs7","a8 l","a8","e tron gt","rs q8","rs","rs5","a3"],
+        "responses":["It's Identified as a Audi car model. Company/Brand information is as follows ---->     Audi AG is a German automotive manufacturer of luxury vehicles headquartered in Ingolstadt, Bavaria, Germany. As a subsidiary of its parent company, the Volkswagen Group, Audi produces vehicles in nine production facilities worldwide.The origins of the company are complex, going back to the early 20th century and the initial enterprises (Horch and the Audiwerke) founded by engineer August Horch (1868–1951); and two other manufacturers (DKW and Wanderer), leading to the foundation of Auto Union in 1932. The modern Audi era began in the 1960s, when Auto Union was acquired by Volkswagen from Daimler-Benz.[9] After relaunching the Audi brand with the 1965 introduction of the Audi F103 series, Volkswagen merged Auto Union with NSU Motorenwerke in 1969, thus creating the present-day form of the company."],
+        "displayimg":["yes","audi.jpeg"]
+    },
+    {
+        "tag":"mahindra",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","mahindra","xuv","bolero","scorpio","xuv 400","scorpio n","xuv 700","thar","xuv 300","bolero neo","kuv 100","marazzo","alturas g4"],
+        "responses":["It's Identified as a Mahindra car model. Company/Brand information is as follows ---->     Mahindra & Mahindra Limited (M&M) is an Indian multinational automotive manufacturing corporation headquartered in Mumbai. It was established in 1945 as Mahindra & Mohammed and later renamed as Mahindra & Mahindra. Part of the Mahindra Group, M&M is one of the largest vehicle manufacturers by production in India. Its subsidiary Mahindra Tractor Company is the largest manufacturer of tractors in the world by volume.[3] It was ranked 17th on a list of top companies in India by Fortune India 500 in 2018.[4] Its major competitors in the Indian market include Maruti Suzuki and Tata Motors.[5] Recently Mahindra tractor company has launched TREM IV pollution norms tractors, which have common rail direct injection technology. Mahindra has launched total 6 tractors with CRDI technology one of these is Arjun Novo 605 DI PP which is with common rail direct injection technology and provides different power output with different modes i.e. tractor has 3 modes."],
+        "displayimg":["yes","mahindra.jpeg"]
+    },
+    {
+        "tag":"tata",
+        "patterns":["can you tell me to which company does this car belong","does this car belong","which comapany car is this","tata","nexon","punch","altroz","harrier","safari","tiago","tigor","nexon ev","indica","indigo"],
+        "responses":["It's Identified as a Tata car model. Company/Brand information is as follows ---->     Tata Motors Limited is an Indian multinational automotive manufacturing company, headquartered in Mumbai, India, which is part of the Tata Group. The company produces passenger cars, trucks, vans, coaches, buses.[5]Formerly known as Tata Engineering and Locomotive Company (TELCO), the company was founded in 1945 as a manufacturer of locomotives. The company manufactured its first commercial vehicle in 1954 in a collaboration with Daimler-Benz AG, which ended in 1969. Tata Motors entered the passenger vehicle market in 1988 with the launch of the TataMobile followed by the Tata Sierra in 1991, becoming the first Indian manufacturer to achieve the capability of developing a competitive indigenous automobile.[6] In 1998, Tata launched the first fully indigenous Indian passenger car, the Indica, and in 2008 launched the Tata Nano, the world's most affordable car. Tata Motors acquired the South Korean truck manufacturer Daewoo Commercial Vehicles Company in 2004. Tata Motors has been the parent company of Jaguar Land Rover since the company established it for the acquisition of Jaguar Cars and Land Rover from Ford in 2008."],
+        "displayimg":["yes","tata.jpeg"]
+    },
+    {
+        "tag":"mercedesvbmw",
+        "patterns":["can you tell me to which company does this car belong","mercedes bmw","bmw mercedes","bmw,mercedes","mercedes,bmw","mercedes or bmw","bmw or mercedes","mercedes vs bmw","bmw vs mercedes","either bmw or mercedes","either mercedes or bmw"],
+        "responses":["In my opinion if you want performance go for BMW and for luxurious ride you go for MERCEDES"],
+        "displayimg":["yes","mercedesvsbmw.jpg"]
+    },
+    {
+        "tag":"tatavmahindra",
+        "patterns":["can you tell me to which company does this car belong","tata mahindra","mahindra tata","tata,mahindra","mahindra,tata","mahindra or tata","tata or mahindra","mahindra vs tata","tata vs mahindra","either tata or mahindra","either mahindra or tata"],
+        "responses":["In my opinion you can go for TATA it have an excellent build quality and features as compared to mahindra"],
+        "displayimg":["yes","tatavsmahindra.jpg"]
+    },
+    {
+        "tag":"hondavhyundai",
+        "patterns":["can you tell me to which company does this car belong","honda hyundai","hyundai honda","hyundai,honda","honda,hyundai","honda or hyundai","hyundai or honda","honda vs hyundai","hyundai vs honda","either hyundai or honda","either honda or hyundai"],
+        "responses":["In my opinion you should go for HONDA having best in segment performance engines"],
+        "displayimg":["yes","hondavshyundai.jpg"]
+    },
+    {
+        "tag":"jeepvtoyota",
+        "patterns":["can you tell me to which company does this car belong","jeep toyota","toyota jeep","toyota,jeep","jeep,toyota","jeep or toyota","toyota or jeep","jeep vs toyota","toyota vs jeep","either toyota or jeep","either jeep or toyota"],
+        "responses":["In my opinion you should go JEEP as it's feature loaded"],
+        "displayimg":["yes","jeepvstoyota.jpg"]
+    },
+    {
+        "tag":"hondavtoyota",
+        "patterns":["can you tell me to which company does this car belong","honda toyota","toyota honda","toyota,honda","honda,toyota","honda or toyota","toyota or honda","honda vs toyota","toyota vs honda","either toyota or honda","either honda or toyota"],
+        "responses":["In my opinion you should go for TOYOTA if you planning for suv's otherwise for sedans you can go for HONDA"],
+        "displayimg":["yes","hondavstoyota.jpg"]
+    },
+    {
+        "tag":"buyalto",
+        "patterns":["which car should i buy","which is the best car under","which is the best car to buy between","which car is best under 100000 to 500000","one lakh to five lakh","1lakh-5lakh","between 1lakh and 5lakh","in the range of one to five lakh","in betweeen one to five lakh"],
+        "responses":["According to our reports you must go for Alto 800 within this price bracket","You should go for Alto 800 :)"],
+        "displayimg":["yes","buyalto.jpg"]
+    },
+    {
+        "tag":"buybreeza",
+        "patterns":["which car should i buy","which is the best car under","which is the best car to buy between","which car is best under 500000 to 1000000","five lakh to ten lakh","5lakh-10lakh","between 5lakh and 10lakh","in the range of five to ten lakh","in betweeen five to ten lakh"],
+        "responses":["According to our reports you must go for Vitara Breeza within this price bracket","You should go for Vitara Breeza :)"],
+        "displayimg":["yes","buybreeza.jpg"]
+    },
+    {
+        "tag":"buyhondacity",
+        "patterns":["which car should i buy","which is the best car under","which is the best car to buy between","which car is best under 1000000 to 1500000","ten lakh to fifteen lakh","10lakh-15lakh","between 10lakh and 15lakh","in the range of ten to fifteen lakh","in betweeen ten to fifteen lakh"],
+        "responses":["According to our reports you must go for Honda City within this price bracket","You should go for Honda City :)"],
+        "displayimg":["yes","buycity.jpg"]
+    },
+    {
+        "tag":"buyinnova",
+        "patterns":["which car should i buy","which is the best car under","which is the best car to buy between","which car is best under 1500000 to 3000000","fifteen lakh to thirty lakh","15lakh-30lakh","between 15lakh and 30lakh","in the range of fifteen to thirty lakh","in betweeen fifteen to thirty lakh"],
+        "responses":["According to our reports you must go for Toyota Innova within this price bracket","You should go for Toyota Innova :)"],
+        "displayimg":["yes","buyinnova.jpg"]
+    },
+    {
+        "tag":"buyfortuner",
+        "patterns":["which car should i buy","which is the best car under","which is the best car to buy between","which car is best under 3000000 to 5000000","thirty lakh to fifty lakh","30lakh-50lakh","between 30lakh and 50lakh","in the range of thirty to fifty lakh","in betweeen thirty to fifty lakh"],
+        "responses":["According to our reports you must go for Toyota Fortuner within this price bracket","You should go for Toyota Fortuner :)"],
+        "displayimg":["yes","buyfortuner.jpg"]
+    },
+    {
+        "tag":"buybmw3series",
+        "patterns":["can you guide me with a car under","which car should i buy","which car can i buy","which is the best car under","which is the best car to buy between","which car is best under 5000000 to 8000000","fifteen lakh to thirty lakh","50lakh-80lakh","between 50lakh and 80lakh","in the range of fifty to eighty lakh","in betweeen fifty to eighty lakh"],
+        "responses":["According to our reports you must go for BMW Series 3 within this price bracket","You should go for BMW Series 3 :)"],
+        "displayimg":["yes","buybmwseries3.jpg"]
+    },
+    {
+        "tag":"buysclass",
+        "patterns":["can you guide me with a car under","which car should i buy","which car can i buy","which is the best car under","which is the best car to buy between","which car is best under 8000000 to 15000000","eighty lakh to one crore fifty lakhs","80lakh-1.5crore","between 80lakh and 1.5crore","in the range of eighty to one core fifty lakh","in betweeen eighty to one crore fifty lakh"],
+        "responses":["According to our reports you must go for Mercedes S-Class within this price bracket","You should go for Mercedes S-Class :)"],
+        "displayimg":["yes","buysclass.jpeg"]
+    },
+    {
+        "tag":"buymustang",
+        "patterns":["which is the best sports car under one crore","best sports car"],
+        "responses":["According to our reports you must go for Mustang GT ","You should go for Mustang GT :)"],
+        "displayimg":["yes","buymustang.jpg"]
+    }
+
+]}
